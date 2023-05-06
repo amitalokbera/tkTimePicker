@@ -323,6 +323,7 @@ class SpinTimePickerModern(basetimepicker.SpinBaseClass):
 
     def set24Hrs(self, val: int):
         """ returns hours in 24 hours clock """
+        print(val)
         self._24HrsTime.setValue(val)
 
     def setMins(self, val: int):
