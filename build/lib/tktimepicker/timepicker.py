@@ -71,6 +71,7 @@ class AnalogPicker(tkinter.Frame):  # Creates the fully functional clock timepic
             self.spinPicker.set12Hrs(hrs)
 
         else:
+            print(hrs)
             self.spinPicker.set24Hrs(hrs)
 
     def configAnalog(self, canvas_bg="", **kwargs):
